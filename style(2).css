@@ -12,28 +12,43 @@ header{position:fixed;top:0;width:100%;display:flex;justify-content:space-betwee
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:36px 15%;
+
+    padding:25px 7%;
+
+    min-height:150px;
+
     background:#fff;
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
 }
-/* First Image */
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* Main Logo */
+
 .logo{
-    width:120px;
-    height:100px;
-    object-fit:cover;
-    border-radius:12px;
-    border:2px solid #1E6B33;
+    width:140px;
+    height:auto;
 }
 
 /* Second Image */
+
 .header-image{
-    width:120px;
-    height:100px;
+    width:140px;
+    height:140px;
+
     object-fit:cover;
-    border-radius:12px;
-    border:2px solid #1E6B33;
-}
-nav{display:flex;gap:30px}
+
+    border-radius:18px;
+
+    border:3px solid #1E6B33;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}nav{display:flex;gap:30px}
 nav a{text-decoration:none;color:var(--primary);font-weight:600}
 nav a:hover{color:var(--secondary)}
 .hero{min-height:100vh;padding:160px 8% 90px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;background:linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.75)),url('images/hero.jpg') center/cover fixed}
